@@ -1,0 +1,6 @@
+apiVersion: v2
+appVersion: v0.15.0
+description: A Helm chart for prometheus postgres-exporter
+name: prometheus-postgres-exporter
+version: 5.2.0
+type: application
