@@ -1,4 +1,4 @@
-#Devops-assessment
+# Devops-assessment
 
 
  1.Deploy postgres as statefulset in kubernetes
@@ -54,6 +54,22 @@ Below 2 screenshots shows the postgres and pg queries in the prometheus
 2.
 
 ![Screenshot from 2023-12-14 23-31-10](https://github.com/sarvanand14/devops-assessment-2/assets/142403605/c4d6274e-0104-4b3c-8453-31f387e7407a)
+
+
+
+
+## Doubt 
+
+Manage Postgres credentials in secrets manager.
+
+We can manage postgres credentials  using secrets in Kubernetes where we can create a secret object file and specify the username and password in the file in the encoded form.
+
+OR
+
+We can manage the postgres credentials using the secret managers like Hashicorp Vault or AWS secret manager and so on.
+In this assessment if i am using the secret  managers like Vault how can i submit the details with you while submitting the assessment. 
+
+
 
 
 
